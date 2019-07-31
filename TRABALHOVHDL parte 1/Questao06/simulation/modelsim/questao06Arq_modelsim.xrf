@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mclar/Desktop/TRABALHOVHDL/Questao06/questao06Arq.vhd
+source_file = 1, C:/Users/mclar/Desktop/TRABALHOVHDL/Questao06/Waveform questao06Arq.vwf
+source_file = 1, C:/Users/mclar/Desktop/TRABALHOVHDL/Questao06/db/questao06Arq.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = questao06Arq
+instance = comp, \D1~I , D1, questao06Arq, 1
+instance = comp, \X~I , X, questao06Arq, 1
+instance = comp, \D0~I , D0, questao06Arq, 1
+instance = comp, \S~0 , S~0, questao06Arq, 1
+instance = comp, \S~I , S, questao06Arq, 1

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mclar\Desktop\TRABALHOVHDL parte 2\simulation\qsim
+vquestao01
+Z1 I_C?hM@QQTbF]`1DfQC^^52
+Z2 V62X4FVnR_9mIljMihVZk60
+Z3 dC:\Users\mclar\Desktop\TRABALHOVHDL parte 2\simulation\qsim
+Z4 w1498591206
+Z5 8questao01.vo
+Z6 Fquestao01.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 5?42n6Q79U_V3GIRzhhKF1
+!s85 0
+Z10 !s108 1498591210.610000
+Z11 !s107 questao01.vo|
+Z12 !s90 -work|work|questao01.vo|
+!s101 -O0
+vquestao01_vlg_check_tst
+!i10b 1
+!s100 4dE^@jfNPm21G0PDnF_;13
+IF]^l_36D8;2AAHjEbm>T[2
+V7WlAZRTbB=nYaO1`o7RN51
+R3
+Z13 w1498591203
+Z14 8questao01.vt
+Z15 Fquestao01.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1498591210.976000
+Z17 !s107 questao01.vt|
+Z18 !s90 -work|work|questao01.vt|
+!s101 -O0
+R8
+vquestao01_vlg_sample_tst
+!i10b 1
+!s100 2nEE92BFIh]c>HXz4T9gc3
+IdZ3h7fBoFESi0[RdlJCEE3
+V63oiL5ajM[7D==W>@V?0L2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vquestao01_vlg_vec_tst
+!i10b 1
+!s100 MUW0CX;VDAN4:oZoOE4Po3
+ISDY?eNo6^Q4aN664@bVNN3
+V^UTMTPbS]R[EEVVVJKaNz2
+R3
+R13
+R14
+R15
+L0 239
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,35 @@
+|questao03itema
+ent[0] => saida[0]~reg0.DATAIN
+ent[1] => saida[1]~reg0.DATAIN
+ent[2] => saida[2]~reg0.DATAIN
+ent[3] => saida[3]~reg0.DATAIN
+ent[4] => saida[4]~reg0.DATAIN
+ent[5] => saida[5]~reg0.DATAIN
+ent[6] => saida[6]~reg0.DATAIN
+ent[7] => saida[7]~reg0.DATAIN
+cicloclk => saida[0]~reg0.CLK
+cicloclk => saida[1]~reg0.CLK
+cicloclk => saida[2]~reg0.CLK
+cicloclk => saida[3]~reg0.CLK
+cicloclk => saida[4]~reg0.CLK
+cicloclk => saida[5]~reg0.CLK
+cicloclk => saida[6]~reg0.CLK
+cicloclk => saida[7]~reg0.CLK
+saida[0] <= saida[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= saida[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= saida[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= saida[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[4] <= saida[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[5] <= saida[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[6] <= saida[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+saida[7] <= saida[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => saida[0]~reg0.PRESET
+reset => saida[1]~reg0.PRESET
+reset => saida[2]~reg0.PRESET
+reset => saida[3]~reg0.PRESET
+reset => saida[4]~reg0.PRESET
+reset => saida[5]~reg0.PRESET
+reset => saida[6]~reg0.PRESET
+reset => saida[7]~reg0.PRESET
+
+

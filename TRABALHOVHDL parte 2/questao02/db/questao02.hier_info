@@ -1,0 +1,6 @@
+|questao02
+a => b~reg0.DATAIN
+cicloclk => b~reg0.CLK
+b <= b~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

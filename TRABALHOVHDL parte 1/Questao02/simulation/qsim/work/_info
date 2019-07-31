@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mclar\Desktop\TRABALHOVHDL\Questao02\simulation\qsim
+vquestao02Arq
+Z1 !s100 WG9WGY;0RlRGjOWUG9]i?0
+Z2 Ih^@6Lhj9RYzRDI]RZ:jTL1
+Z3 Vd^5XnD9KzB9iCKzoK@GB03
+Z4 dC:\Users\mclar\Desktop\TRABALHOVHDL\Questao02\simulation\qsim
+Z5 w1498315474
+Z6 8questao02Arq.vo
+Z7 Fquestao02Arq.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|questao02Arq.vo|
+Z10 o-work work -O0
+Z11 nquestao02@arq
+!i10b 1
+!s85 0
+Z12 !s108 1498315476.904000
+Z13 !s107 questao02Arq.vo|
+!s101 -O0
+vquestao02Arq_vlg_check_tst
+!i10b 1
+!s100 4eL;^aJBa3gT[GGOiUGMf2
+IJa1MHcXZd8KLkd5X7LHbz1
+Z14 VJaXgCI5=4H_0LMQGkI=Mh1
+R4
+Z15 w1498315472
+Z16 8questao02Arq.vt
+Z17 Fquestao02Arq.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1498315477.261000
+Z19 !s107 questao02Arq.vt|
+Z20 !s90 -work|work|questao02Arq.vt|
+!s101 -O0
+R10
+Z21 nquestao02@arq_vlg_check_tst
+vquestao02Arq_vlg_sample_tst
+!i10b 1
+Z22 !s100 =4@`SY]n7=G?GJUzUlC2b3
+Z23 Ic7XddZ_oCb1URhcJ;;A6k3
+Z24 VzeF7h6VT3ZL2kmXf8AJh62
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 nquestao02@arq_vlg_sample_tst
+vquestao02Arq_vlg_vec_tst
+!i10b 1
+!s100 hOfiX^?0TDQE6jRS:P:Oh3
+IVQgB`466=ZX;9keSh1zW11
+Z26 VCZCnB8`T2C9V4Q9VJaGkB2
+R4
+R15
+R16
+R17
+L0 713
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z27 nquestao02@arq_vlg_vec_tst

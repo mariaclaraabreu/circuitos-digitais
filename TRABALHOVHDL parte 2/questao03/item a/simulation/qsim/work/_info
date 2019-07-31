@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mclar\Desktop\TRABALHOVHDL parte 2\questao03\item a\simulation\qsim
+vquestao03itema
+Z1 IAR?ELOPKMI5m<=7>Z:M113
+Z2 VRYha3iLmK]A[JK8QHZJDz2
+Z3 dC:\Users\mclar\Desktop\TRABALHOVHDL parte 2\questao03\item a\simulation\qsim
+Z4 w1498592629
+Z5 8questao03itema.vo
+Z6 Fquestao03itema.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 l6mNQlZcXz9BI0CS1cAff3
+!s85 0
+Z10 !s108 1498592630.831000
+Z11 !s107 questao03itema.vo|
+Z12 !s90 -work|work|questao03itema.vo|
+!s101 -O0
+vquestao03itema_vlg_check_tst
+!i10b 1
+!s100 :RDJgA`W:BPh;=YgTUoP?3
+I^Q>>0i1^7LQXG0ZdHAGMB2
+V_[YemaX;RZ1]8nEKIfeK51
+R3
+Z13 w1498592627
+Z14 8questao03itema.vt
+Z15 Fquestao03itema.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1498592631.200000
+Z17 !s107 questao03itema.vt|
+Z18 !s90 -work|work|questao03itema.vt|
+!s101 -O0
+R8
+vquestao03itema_vlg_sample_tst
+!i10b 1
+!s100 D2FnjEQBjZ8VP4nT8m8oh3
+IL_<1I5?o8YQHkJDMIWXS41
+V0AAIYX?C>[2eKnE9Ef3P_2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vquestao03itema_vlg_vec_tst
+!i10b 1
+!s100 RKGfZV:@@V`XAY04i9>I51
+IM@CUMo=ml=A_XOXZ>7=EY1
+V`=;V`8gHIchglJoIzQ9nJ0
+R3
+R13
+R14
+R15
+L0 281
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,897 @@
+$comment
+	File created using the following command:
+		vcd file questao03itemb.msim.vcd -direction
+$end
+$date
+	Tue Jun 27 19:38:15 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module questao03itemb_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " cicloclk $end
+$var reg 11 # ent [10:0] $end
+$var wire 1 $ saida [10] $end
+$var wire 1 % saida [9] $end
+$var wire 1 & saida [8] $end
+$var wire 1 ' saida [7] $end
+$var wire 1 ( saida [6] $end
+$var wire 1 ) saida [5] $end
+$var wire 1 * saida [4] $end
+$var wire 1 + saida [3] $end
+$var wire 1 , saida [2] $end
+$var wire 1 - saida [1] $end
+$var wire 1 . saida [0] $end
+$var wire 1 / sampler $end
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 cicloclk~combout $end
+$var wire 1 7 cicloclk~clkctrl_outclk $end
+$var wire 1 8 saida[0]~0_combout $end
+$var wire 1 9 a~combout $end
+$var wire 1 : a~clkctrl_outclk $end
+$var wire 1 ; saida[0]~reg0_regout $end
+$var wire 1 < saida[1]~1_combout $end
+$var wire 1 = saida[1]~reg0_regout $end
+$var wire 1 > saida[2]~2_combout $end
+$var wire 1 ? saida[2]~reg0_regout $end
+$var wire 1 @ saida[3]~3_combout $end
+$var wire 1 A saida[3]~reg0_regout $end
+$var wire 1 B saida[4]~4_combout $end
+$var wire 1 C saida[4]~reg0_regout $end
+$var wire 1 D saida[5]~5_combout $end
+$var wire 1 E saida[5]~reg0_regout $end
+$var wire 1 F saida[6]~6_combout $end
+$var wire 1 G saida[6]~reg0_regout $end
+$var wire 1 H saida[7]~7_combout $end
+$var wire 1 I saida[7]~reg0_regout $end
+$var wire 1 J saida[8]~8_combout $end
+$var wire 1 K saida[8]~reg0_regout $end
+$var wire 1 L saida[9]~9_combout $end
+$var wire 1 M saida[9]~reg0_regout $end
+$var wire 1 N saida[10]~10_combout $end
+$var wire 1 O saida[10]~reg0_regout $end
+$var wire 1 P ent~combout [10] $end
+$var wire 1 Q ent~combout [9] $end
+$var wire 1 R ent~combout [8] $end
+$var wire 1 S ent~combout [7] $end
+$var wire 1 T ent~combout [6] $end
+$var wire 1 U ent~combout [5] $end
+$var wire 1 V ent~combout [4] $end
+$var wire 1 W ent~combout [3] $end
+$var wire 1 X ent~combout [2] $end
+$var wire 1 Y ent~combout [1] $end
+$var wire 1 Z ent~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+b0 #
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+x/
+00
+11
+x2
+13
+14
+15
+06
+07
+18
+09
+0:
+0;
+1<
+0=
+1>
+0?
+1@
+0A
+1B
+0C
+1D
+0E
+1F
+0G
+1H
+0I
+1J
+0K
+1L
+0M
+1N
+0O
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+$end
+#18000
+1"
+16
+17
+0/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1A
+1?
+1=
+1;
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+#36000
+0"
+06
+07
+1/
+#54000
+1"
+16
+17
+0/
+#66000
+1!
+19
+1:
+1/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0A
+0?
+0=
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+#69000
+b1 #
+1Z
+0/
+08
+#72000
+0"
+06
+07
+1/
+#90000
+1"
+16
+17
+0/
+#108000
+0"
+06
+07
+1/
+#126000
+1"
+16
+17
+0/
+#132000
+0!
+09
+0:
+1/
+#138000
+b11 #
+b10 #
+0Z
+1Y
+0/
+18
+0<
+#144000
+0"
+06
+07
+1/
+#162000
+1"
+16
+17
+0/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1A
+1?
+1;
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0.
+#180000
+0"
+06
+07
+1/
+#198000
+1!
+1"
+19
+16
+17
+1:
+0/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0A
+0?
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1.
+#207000
+b11 #
+1Z
+1/
+08
+#216000
+0"
+06
+07
+0/
+#234000
+1"
+16
+17
+1/
+#252000
+0"
+06
+07
+0/
+#264000
+0!
+09
+0:
+1/
+#270000
+1"
+16
+17
+0/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1A
+1?
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+#276000
+b111 #
+b101 #
+b100 #
+0Z
+0Y
+1X
+1/
+18
+1<
+0>
+#288000
+0"
+06
+07
+0/
+#306000
+1"
+16
+17
+1/
+0?
+1=
+1;
+1,
+0-
+0.
+#324000
+0"
+06
+07
+0/
+#330000
+1!
+19
+1:
+1/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0A
+0=
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1-
+1.
+#342000
+1"
+16
+17
+0/
+#345000
+b101 #
+1Z
+1/
+08
+#360000
+0"
+06
+07
+0/
+#378000
+1"
+16
+17
+1/
+#396000
+0!
+0"
+09
+06
+07
+0:
+0/
+#414000
+b111 #
+b110 #
+1"
+0Z
+1Y
+16
+17
+1/
+18
+0<
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1A
+1=
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0-
+#432000
+0"
+06
+07
+0/
+#450000
+1"
+16
+17
+1/
+0=
+1;
+1-
+0.
+#462000
+1!
+19
+1:
+0/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0A
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1.
+#468000
+0"
+06
+07
+1/
+#483000
+b111 #
+1Z
+0/
+08
+#486000
+1"
+16
+17
+1/
+#504000
+0"
+06
+07
+0/
+#522000
+1"
+16
+17
+1/
+#528000
+0!
+09
+0:
+0/
+#540000
+0"
+06
+07
+1/
+#552000
+b1111 #
+b1011 #
+b1001 #
+b1000 #
+0Z
+0Y
+0X
+1W
+0/
+18
+1<
+1>
+0@
+#558000
+1"
+16
+17
+1/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1?
+1=
+1;
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0,
+0-
+0.
+#576000
+0"
+06
+07
+0/
+#594000
+1!
+1"
+19
+16
+17
+1:
+1/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0?
+0=
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1,
+1-
+1.
+#612000
+0"
+06
+07
+0/
+#621000
+b1001 #
+1Z
+1/
+08
+#630000
+1"
+16
+17
+0/
+#648000
+0"
+06
+07
+1/
+#660000
+0!
+09
+0:
+0/
+#666000
+1"
+16
+17
+1/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1?
+1=
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0,
+0-
+#684000
+0"
+06
+07
+0/
+#690000
+b1011 #
+b1010 #
+0Z
+1Y
+1/
+18
+0<
+#702000
+1"
+16
+17
+0/
+0=
+1;
+1-
+0.
+#720000
+0"
+06
+07
+1/
+#726000
+1!
+19
+1:
+0/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0?
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1,
+1.
+#738000
+1"
+16
+17
+1/
+#756000
+0"
+06
+07
+0/
+#759000
+b1011 #
+1Z
+1/
+08
+#774000
+1"
+16
+17
+0/
+#792000
+0!
+0"
+09
+06
+07
+0:
+1/
+#810000
+1"
+16
+17
+0/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1?
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0,
+#828000
+b1111 #
+b1101 #
+b1100 #
+0"
+0Z
+0Y
+1X
+06
+07
+1/
+18
+1<
+0>
+#846000
+1"
+16
+17
+0/
+0?
+1=
+1;
+1,
+0-
+0.
+#858000
+1!
+19
+1:
+1/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0=
+0;
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1-
+1.
+#864000
+0"
+06
+07
+0/
+#882000
+1"
+16
+17
+1/
+#897000
+b1101 #
+1Z
+0/
+08
+#900000
+0"
+06
+07
+1/
+#918000
+1"
+16
+17
+0/
+#924000
+0!
+09
+0:
+1/
+#936000
+0"
+06
+07
+0/
+#954000
+1"
+16
+17
+1/
+1O
+1M
+1K
+1I
+1G
+1E
+1C
+1=
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0-
+#966000
+b1111 #
+b1110 #
+0Z
+1Y
+0/
+18
+0<
+#972000
+0"
+06
+07
+1/
+#990000
+1!
+1"
+19
+16
+17
+1:
+0/
+0O
+0M
+0K
+0I
+0G
+0E
+0C
+0=
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1-
+#1000000

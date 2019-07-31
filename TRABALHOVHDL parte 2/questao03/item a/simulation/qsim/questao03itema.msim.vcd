@@ -1,0 +1,471 @@
+$comment
+	File created using the following command:
+		vcd file questao03itema.msim.vcd -direction
+$end
+$date
+	Tue Jun 27 16:43:52 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module questao03itema_vlg_vec_tst $end
+$var reg 1 ! cicloclk $end
+$var reg 8 " ent [7:0] $end
+$var reg 1 # reset $end
+$var wire 1 $ saida [7] $end
+$var wire 1 % saida [6] $end
+$var wire 1 & saida [5] $end
+$var wire 1 ' saida [4] $end
+$var wire 1 ( saida [3] $end
+$var wire 1 ) saida [2] $end
+$var wire 1 * saida [1] $end
+$var wire 1 + saida [0] $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 cicloclk~combout $end
+$var wire 1 4 cicloclk~clkctrl_outclk $end
+$var wire 1 5 saida[0]~0_combout $end
+$var wire 1 6 reset~combout $end
+$var wire 1 7 reset~clkctrl_outclk $end
+$var wire 1 8 saida[0]~reg0_regout $end
+$var wire 1 9 saida[1]~1_combout $end
+$var wire 1 : saida[1]~reg0_regout $end
+$var wire 1 ; saida[2]~2_combout $end
+$var wire 1 < saida[2]~reg0_regout $end
+$var wire 1 = saida[3]~3_combout $end
+$var wire 1 > saida[3]~reg0_regout $end
+$var wire 1 ? saida[4]~4_combout $end
+$var wire 1 @ saida[4]~reg0_regout $end
+$var wire 1 A saida[5]~5_combout $end
+$var wire 1 B saida[5]~reg0_regout $end
+$var wire 1 C saida[6]~6_combout $end
+$var wire 1 D saida[6]~reg0_regout $end
+$var wire 1 E saida[7]~7_combout $end
+$var wire 1 F saida[7]~reg0_regout $end
+$var wire 1 G ent~combout [7] $end
+$var wire 1 H ent~combout [6] $end
+$var wire 1 I ent~combout [5] $end
+$var wire 1 J ent~combout [4] $end
+$var wire 1 K ent~combout [3] $end
+$var wire 1 L ent~combout [2] $end
+$var wire 1 M ent~combout [1] $end
+$var wire 1 N ent~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+0#
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+x,
+0-
+1.
+x/
+10
+11
+12
+03
+04
+15
+06
+07
+08
+19
+0:
+1;
+0<
+1=
+0>
+1?
+0@
+1A
+0B
+1C
+0D
+1E
+0F
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+$end
+#49000
+1!
+13
+14
+0,
+1F
+1D
+1B
+1@
+1>
+1<
+1:
+18
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+#85000
+b1 "
+1N
+1,
+05
+#96000
+1#
+16
+17
+0,
+0F
+0D
+0B
+0@
+0>
+0<
+0:
+08
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+#98000
+0!
+03
+04
+1,
+#147000
+1!
+13
+14
+0,
+#170000
+b11 "
+b10 "
+0N
+1M
+1,
+15
+09
+#192000
+0#
+06
+07
+0,
+#196000
+0!
+03
+04
+1,
+#245000
+1!
+13
+14
+0,
+1F
+1D
+1B
+1@
+1>
+1<
+18
+0$
+0%
+0&
+0'
+0(
+0)
+0+
+#255000
+b11 "
+1N
+1,
+05
+#288000
+1#
+16
+17
+0,
+0F
+0D
+0B
+0@
+0>
+0<
+08
+1$
+1%
+1&
+1'
+1(
+1)
+1+
+#294000
+0!
+03
+04
+1,
+#340000
+b111 "
+b101 "
+b100 "
+0N
+0M
+1L
+0,
+15
+19
+0;
+#343000
+1!
+13
+14
+1,
+#384000
+0#
+06
+07
+0,
+#392000
+0!
+03
+04
+1,
+#425000
+b101 "
+1N
+0,
+05
+#441000
+1!
+13
+14
+1,
+1F
+1D
+1B
+1@
+1>
+1:
+0$
+0%
+0&
+0'
+0(
+0*
+#480000
+1#
+16
+17
+0,
+0F
+0D
+0B
+0@
+0>
+0:
+1$
+1%
+1&
+1'
+1(
+1*
+#490000
+0!
+03
+04
+1,
+#510000
+b111 "
+b110 "
+0N
+1M
+0,
+15
+09
+#539000
+1!
+13
+14
+1,
+#576000
+0#
+06
+07
+0,
+#588000
+0!
+03
+04
+1,
+#595000
+b111 "
+1N
+0,
+05
+#637000
+1!
+13
+14
+1,
+1F
+1D
+1B
+1@
+1>
+0$
+0%
+0&
+0'
+0(
+#672000
+1#
+16
+17
+0,
+0F
+0D
+0B
+0@
+0>
+1$
+1%
+1&
+1'
+1(
+#680000
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+0N
+0M
+0L
+1K
+1,
+15
+19
+1;
+0=
+#686000
+0!
+03
+04
+0,
+#735000
+1!
+13
+14
+1,
+#765000
+b1001 "
+1N
+0,
+05
+#768000
+0#
+06
+07
+1,
+#784000
+0!
+03
+04
+0,
+#833000
+1!
+13
+14
+1,
+1F
+1D
+1B
+1@
+1<
+1:
+0$
+0%
+0&
+0'
+0)
+0*
+#850000
+b1011 "
+b1010 "
+0N
+1M
+0,
+15
+09
+#864000
+1#
+16
+17
+1,
+0F
+0D
+0B
+0@
+0<
+0:
+1$
+1%
+1&
+1'
+1)
+1*
+#882000
+0!
+03
+04
+0,
+#931000
+1!
+13
+14
+1,
+#935000
+b1011 "
+1N
+0,
+05
+#960000
+0#
+06
+07
+1,
+#980000
+0!
+03
+04
+0,
+#1000000

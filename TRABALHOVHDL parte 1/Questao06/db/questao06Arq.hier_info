@@ -1,0 +1,7 @@
+|questao06Arq
+D0 => S.DATAB
+D1 => S.DATAA
+X => S.OUTPUTSELECT
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+

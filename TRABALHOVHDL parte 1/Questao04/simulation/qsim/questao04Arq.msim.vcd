@@ -1,0 +1,208 @@
+$comment
+	File created using the following command:
+		vcd file questao04Arq.msim.vcd -direction
+$end
+$date
+	Sat Jun 24 11:59:42 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module questao04Arq_vlg_vec_tst $end
+$var reg 3 ! endereco [2:0] $end
+$var wire 1 " Saida [7] $end
+$var wire 1 # Saida [6] $end
+$var wire 1 $ Saida [5] $end
+$var wire 1 % Saida [4] $end
+$var wire 1 & Saida [3] $end
+$var wire 1 ' Saida [2] $end
+$var wire 1 ( Saida [1] $end
+$var wire 1 ) Saida [0] $end
+$var wire 1 * sampler $end
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 Equal7~0_combout $end
+$var wire 1 2 Equal7~1_combout $end
+$var wire 1 3 Equal7~2_combout $end
+$var wire 1 4 Equal7~3_combout $end
+$var wire 1 5 Equal7~4_combout $end
+$var wire 1 6 Saida[5]~0_combout $end
+$var wire 1 7 Equal7~5_combout $end
+$var wire 1 8 Saida[7]~1_combout $end
+$var wire 1 9 endereco~combout [2] $end
+$var wire 1 : endereco~combout [1] $end
+$var wire 1 ; endereco~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+x*
+0+
+1,
+x-
+1.
+1/
+10
+11
+02
+03
+04
+05
+06
+07
+18
+0;
+0:
+09
+$end
+#66850
+b1 !
+1;
+0*
+12
+01
+1(
+0)
+#133700
+b11 !
+b10 !
+0;
+1:
+1*
+13
+02
+1'
+0(
+#200550
+b11 !
+1;
+0*
+14
+03
+1&
+0'
+#267400
+b111 !
+b101 !
+b100 !
+0;
+0:
+19
+1*
+15
+04
+1%
+0&
+#334250
+b101 !
+1;
+0*
+16
+05
+1$
+0%
+#401100
+b111 !
+b110 !
+0;
+1:
+1*
+17
+06
+1#
+0$
+#467950
+b111 !
+1;
+0*
+08
+07
+0#
+1"
+#534800
+b11 !
+b1 !
+b0 !
+0;
+0:
+09
+1*
+18
+11
+1)
+0"
+#601650
+b1 !
+1;
+0*
+12
+01
+1(
+0)
+#668500
+b11 !
+b10 !
+0;
+1:
+1*
+13
+02
+1'
+0(
+#735350
+b11 !
+1;
+0*
+14
+03
+1&
+0'
+#802200
+b111 !
+b101 !
+b100 !
+0;
+0:
+19
+1*
+15
+04
+1%
+0&
+#869050
+b101 !
+1;
+0*
+16
+05
+1$
+0%
+#935900
+b111 !
+b110 !
+0;
+1:
+1*
+17
+06
+1#
+0$
+#1000000

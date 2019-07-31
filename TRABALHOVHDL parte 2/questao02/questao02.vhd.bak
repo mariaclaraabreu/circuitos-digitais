@@ -1,0 +1,16 @@
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+
+ENTITY questao02 IS 
+PORT (a, cicloclk : IN BIT; 
+		b : OUT BIT); 
+END exemplo2;
+
+ARCHITECTURE comportamento OF questao02 IS 
+BEGIN 
+	PROCESS(cicloclk) 
+	BEGIN 
+		IF (cicloclk'event AND cicloclk = '1') THEN 
+			b <= a; END IF; 
+		END PROCESS; 
+END comportamento;

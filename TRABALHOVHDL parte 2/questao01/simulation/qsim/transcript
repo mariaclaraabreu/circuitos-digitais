@@ -1,0 +1,114 @@
+# do questao01.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module questao01
+# 
+# Top level modules:
+# 	questao01
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module questao01_vlg_sample_tst
+# -- Compiling module questao01_vlg_check_tst
+# -- Compiling module questao01_vlg_vec_tst
+# 
+# Top level modules:
+# 	questao01_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.questao01_vlg_vec_tst 
+# Loading work.questao01_vlg_vec_tst
+# Loading work.questao01
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.questao01_vlg_sample_tst
+# Loading work.questao01_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 59260.000 ps
+#      Expected value = 001
+#      Real value = 010
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 59260.000 ps
+#      Expected value = 001
+#      Real value = 010
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 88890.000 ps
+#      Expected value = 010
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 88890.000 ps
+#      Expected value = 010
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 118520.000 ps
+#      Expected value = 010
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 177780.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 177780.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 237040.000 ps
+#      Expected value = 101
+#      Real value = 110
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 266670.000 ps
+#      Expected value = 110
+#      Real value = 000
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 296300.000 ps
+#      Expected value = 110
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 355560.000 ps
+#      Expected value = 000
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 355560.000 ps
+#      Expected value = 000
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 414820.000 ps
+#      Expected value = 001
+#      Real value = 010
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 444450.000 ps
+#      Expected value = 010
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 533340.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 533340.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 533340.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 562970.000 ps
+#      Expected value = 101
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 622230.000 ps
+#      Expected value = 110
+#      Real value = 000
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 711120.000 ps
+#      Expected value = 000
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 711120.000 ps
+#      Expected value = 000
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 711120.000 ps
+#      Expected value = 000
+#      Real value = 111
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 740750.000 ps
+#      Expected value = 001
+#      Real value = 000
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 800010.000 ps
+#      Expected value = 010
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 888900.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 888900.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[2] :: @time = 888900.000 ps
+#      Expected value = 100
+#      Real value = 011
+# ERROR! Vector Mismatch for output port saida1[0] :: @time = 918530.000 ps
+#      Expected value = 101
+#      Real value = 100
+# ERROR! Vector Mismatch for output port saida1[1] :: @time = 977790.000 ps
+#      Expected value = 110
+#      Real value = 000
+#          29 mismatched vectors : Simulation failed !
+# ** Note: $finish    : questao01.vt(235)
+#    Time: 1 us  Iteration: 0  Instance: /questao01_vlg_vec_tst/tb_out

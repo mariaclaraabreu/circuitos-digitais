@@ -1,0 +1,272 @@
+$comment
+	File created using the following command:
+		vcd file questao02Arq.msim.vcd -direction
+$end
+$date
+	Sat Jun 24 11:44:38 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module questao02Arq_vlg_vec_tst $end
+$var reg 32 ! a [31:0] $end
+$var reg 32 " b [31:0] $end
+$var reg 32 # c [31:0] $end
+$var wire 1 $ z [31] $end
+$var wire 1 % z [30] $end
+$var wire 1 & z [29] $end
+$var wire 1 ' z [28] $end
+$var wire 1 ( z [27] $end
+$var wire 1 ) z [26] $end
+$var wire 1 * z [25] $end
+$var wire 1 + z [24] $end
+$var wire 1 , z [23] $end
+$var wire 1 - z [22] $end
+$var wire 1 . z [21] $end
+$var wire 1 / z [20] $end
+$var wire 1 0 z [19] $end
+$var wire 1 1 z [18] $end
+$var wire 1 2 z [17] $end
+$var wire 1 3 z [16] $end
+$var wire 1 4 z [15] $end
+$var wire 1 5 z [14] $end
+$var wire 1 6 z [13] $end
+$var wire 1 7 z [12] $end
+$var wire 1 8 z [11] $end
+$var wire 1 9 z [10] $end
+$var wire 1 : z [9] $end
+$var wire 1 ; z [8] $end
+$var wire 1 < z [7] $end
+$var wire 1 = z [6] $end
+$var wire 1 > z [5] $end
+$var wire 1 ? z [4] $end
+$var wire 1 @ z [3] $end
+$var wire 1 A z [2] $end
+$var wire 1 B z [1] $end
+$var wire 1 C z [0] $end
+$var wire 1 D sampler $end
+$scope module i1 $end
+$var wire 1 E gnd $end
+$var wire 1 F vcc $end
+$var wire 1 G unknown $end
+$var tri1 1 H devclrn $end
+$var tri1 1 I devpor $end
+$var tri1 1 J devoe $end
+$var wire 1 K c~combout [31] $end
+$var wire 1 L c~combout [30] $end
+$var wire 1 M c~combout [29] $end
+$var wire 1 N c~combout [28] $end
+$var wire 1 O c~combout [27] $end
+$var wire 1 P c~combout [26] $end
+$var wire 1 Q c~combout [25] $end
+$var wire 1 R c~combout [24] $end
+$var wire 1 S c~combout [23] $end
+$var wire 1 T c~combout [22] $end
+$var wire 1 U c~combout [21] $end
+$var wire 1 V c~combout [20] $end
+$var wire 1 W c~combout [19] $end
+$var wire 1 X c~combout [18] $end
+$var wire 1 Y c~combout [17] $end
+$var wire 1 Z c~combout [16] $end
+$var wire 1 [ c~combout [15] $end
+$var wire 1 \ c~combout [14] $end
+$var wire 1 ] c~combout [13] $end
+$var wire 1 ^ c~combout [12] $end
+$var wire 1 _ c~combout [11] $end
+$var wire 1 ` c~combout [10] $end
+$var wire 1 a c~combout [9] $end
+$var wire 1 b c~combout [8] $end
+$var wire 1 c c~combout [7] $end
+$var wire 1 d c~combout [6] $end
+$var wire 1 e c~combout [5] $end
+$var wire 1 f c~combout [4] $end
+$var wire 1 g c~combout [3] $end
+$var wire 1 h c~combout [2] $end
+$var wire 1 i c~combout [1] $end
+$var wire 1 j c~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+xD
+0E
+1F
+xG
+1H
+1I
+1J
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+$end
+#98000
+b1 !
+0D
+#150000
+b1 "
+1D
+#160000
+b1 #
+1j
+0D
+1C
+#196000
+b11 !
+b10 !
+1D
+#294000
+b11 !
+0D
+#300000
+b11 "
+b10 "
+1D
+#320000
+b11 #
+b10 #
+0j
+1i
+0D
+0C
+1B
+#392000
+b111 !
+b101 !
+b100 !
+1D
+#450000
+b11 "
+0D
+#480000
+b11 #
+1j
+1D
+1C
+#490000
+b101 !
+0D
+#588000
+b111 !
+b110 !
+1D
+#600000
+b111 "
+b101 "
+b100 "
+0D
+#640000
+b111 #
+b101 #
+b100 #
+0j
+0i
+1h
+1D
+0C
+0B
+1A
+#686000
+b111 !
+0D
+#750000
+b101 "
+1D
+#784000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0D
+#800000
+b101 #
+1j
+1D
+1C
+#882000
+b1001 !
+0D
+#900000
+b111 "
+b110 "
+1D
+#960000
+b111 #
+b110 #
+0j
+1i
+0D
+0C
+1B
+#980000
+b1011 !
+b1010 !
+1D
+#1000000

@@ -1,0 +1,7 @@
+|questao03Arq
+D0 => Saida.DATAB
+D1 => Saida.DATAA
+Sinal => Saida.OUTPUTSELECT
+Saida <= Saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+|questao01Arq
+a => int2.IN0
+a => int1.IN0
+b => int1.IN1
+b => int2.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

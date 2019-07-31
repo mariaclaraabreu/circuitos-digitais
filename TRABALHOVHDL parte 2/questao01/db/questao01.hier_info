@@ -1,0 +1,28 @@
+|questao01
+a[0] => saida1.IN0
+a[0] => vet.IN0
+a[0] => vet.IN0
+a[1] => saida1.IN0
+a[1] => vet.IN0
+a[1] => vet.IN1
+a[2] => saida1.IN0
+a[2] => vet.IN0
+a[2] => vet.IN1
+b[0] => saida1.IN1
+b[0] => vet.IN1
+b[0] => vet.IN0
+b[1] => saida1.IN1
+b[1] => vet.IN1
+b[1] => vet.IN1
+b[2] => saida1.IN1
+b[2] => vet.IN1
+b[2] => vet.IN1
+ent => saida1.IN1
+ent => vet.IN1
+ent => vet.IN1
+saida1[0] <= saida1.DB_MAX_OUTPUT_PORT_TYPE
+saida1[1] <= saida1.DB_MAX_OUTPUT_PORT_TYPE
+saida1[2] <= saida1.DB_MAX_OUTPUT_PORT_TYPE
+saida2 <= vet.DB_MAX_OUTPUT_PORT_TYPE
+
+
